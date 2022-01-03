@@ -160,7 +160,7 @@ public class Main extends SimpleApplication {
                 }
 
             } catch (IOException ex) {
-                System.out.println("ERRR WHAT THE FUCK ");
+                System.out.println("ERRR WHAT THE  ");
                 Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
 
             }
