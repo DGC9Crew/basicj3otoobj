@@ -47,9 +47,10 @@ public class Main extends SimpleApplication {
         
         AmbientLight am = new AmbientLight();
         rootNode.addLight(am);
-       Node top = (Node)assetManager.loadModel("Models/stage1.j3o");
-       
-        File dir = new File(System.getProperty("user.home") + "\\poop");
+       Node top = (Node)assetManager.loadModel("Models/YourModelHere.j3o");
+       // YOU MUST CREATE THE DIRECTORY 'j3otoobj' IN YOUR USR DIRECTORY
+        // THE DIRECTORY SELECTED IS WIPED OF ***ALL*** FILES ON BOOT. CHANGE WITH CAUTION.
+        File dir = new File(System.getProperty("user.home") + "\\j3otoobj");
         for (File file : dir.listFiles())
             if (!file.isDirectory())
                 file.delete();
@@ -81,7 +82,7 @@ public class Main extends SimpleApplication {
             try {
                 String fileName = "object " +globalnum + ".obj";
                 // YOU MUST CREATE THE DIRECTORY 'j3otoobj' IN YOUR USR DIRECTORY
-                // HE DIRECTORY SELECTED IS WIPED OF ***ALL*** FILES ON BOOT. CHANGE WITH CAUTION.
+                // THE DIRECTORY SELECTED IS WIPED OF ***ALL*** FILES ON BOOT. CHANGE WITH CAUTION.
                 File dir = new File(System.getProperty("user.home") + "\\j3otoobj");
                 File file = new File(dir, fileName);
                 file.createNewFile();
