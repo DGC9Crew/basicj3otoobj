@@ -1,4 +1,4 @@
-# basicj3otoobj
+# Basic .j3o to .obj
 A basic program I wrote, which gets the geometries from an .j3o file (jMonkeyEngine), and creates individual .obj files for each one in a user directory.
 
 Includes a Main.java file for a jMonkeyEngine project.
