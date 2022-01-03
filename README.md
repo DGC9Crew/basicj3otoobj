@@ -3,7 +3,7 @@ A basic program I wrote, which gets the geometries from an .j3o file (jMonkeyEng
 
 Includes a Main.java file for a jMonkeyEngine project.
 
-You must create a folder called 'poop', in your user directory, or modify the location yourself. 
+You must create a folder called 'j3otoobj', in your user directory, or modify the location yourself. 
 
 Doesn't work with terrainquads unless you remove the vt section. 
 
