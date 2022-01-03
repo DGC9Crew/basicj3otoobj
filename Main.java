@@ -80,8 +80,9 @@ public class Main extends SimpleApplication {
 
             try {
                 String fileName = "object " +globalnum + ".obj";
-
-                File dir = new File(System.getProperty("user.home") + "\\poop");
+                // YOU MUST CREATE THE DIRECTORY 'j3otoobj' IN YOUR USR DIRECTORY
+                // HE DIRECTORY SELECTED IS WIPED OF ***ALL*** FILES ON BOOT. CHANGE WITH CAUTION.
+                File dir = new File(System.getProperty("user.home") + "\\j3otoobj");
                 File file = new File(dir, fileName);
                 file.createNewFile();
                 FileWriter writer = new FileWriter(file);
